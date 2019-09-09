@@ -1,0 +1,7 @@
+title: Message
+type: object
+properties:
+  summary:
+    type: string
+  description:
+    type: string
