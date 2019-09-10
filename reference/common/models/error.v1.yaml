@@ -10,6 +10,3 @@ properties:
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis auctor lorem, sit amet rhoncus risus. Duis id felis arcu. Nunc sit amet urna nisl. Aenean metus risus, faucibus at varius vitae, volutpat sed tortor. Nam at tristique magna. Duis feugiat augue a varius iaculis. Phasellus rhoncus, tortor ac tempor efficitur, velit justo euismod lacus, vitae euismod elit purus vel ante.'
     items:
       $ref: ./message.v1.yaml
-  foo:
-    allOf: []
-    description: ''
