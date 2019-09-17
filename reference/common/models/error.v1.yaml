@@ -1,6 +1,6 @@
 title: Error
 type: object
-description: An error model 22.
+description: An error model 222.
 properties:
   id:
     type: string
