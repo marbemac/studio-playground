@@ -82,9 +82,7 @@ paths:
 components:
   schemas:
     Pets:
-      type: array
-      items:
-        $ref: ./models/pet.v1.yaml
+      type: string
       x-tags:
         - Pets
       title: Pets
