@@ -4,6 +4,7 @@ info:
   title: Swagger Petstore3
   license:
     name: MIT
+  description: ''
 servers:
   - url: 'http://petstore.swagger.io/v1'
 paths:
