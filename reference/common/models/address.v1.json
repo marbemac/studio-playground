@@ -1,0 +1,15 @@
+{
+  "title": "Address",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    }
+  }
+}
