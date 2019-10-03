@@ -1,3 +1,3 @@
-# Auth 2
+# Auth
 
 The beginning of an awesome article...
