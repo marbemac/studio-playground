@@ -1,3 +1,3 @@
-# Intro 22
+# Intro
 
 The beginning of an awesome article...
