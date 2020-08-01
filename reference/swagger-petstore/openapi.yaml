@@ -22,6 +22,10 @@ paths:
           schema:
             type: integer
             format: int32
+        - schema:
+            type: integer
+          in: query
+          name: skip
       responses:
         '200':
           description: A paged array of pets
@@ -40,7 +44,7 @@ paths:
             application/json:
               schema:
                 $ref: ../common/models/error.v1.yaml
-      description: Foo
+      description: ''
     post:
       summary: Create a pet
       operationId: createPets
@@ -74,7 +78,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ./models/pet.v1.yaml
+                $ref: ../common/models/pet.json
         default:
           description: unexpected error
           content:
