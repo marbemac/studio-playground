@@ -81,6 +81,21 @@ paths:
             application/json:
               schema:
                 $ref: ../common/models/error.v1.yaml
+  /draft:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+      operationId: get-draft
 components:
   schemas:
     Pets:
