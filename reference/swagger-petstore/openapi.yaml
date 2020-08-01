@@ -83,7 +83,7 @@ paths:
                 $ref: ../common/models/error.v1.yaml
   /draft:
     get:
-      summary: Your GET endpoint
+      summary: Draft
       tags: []
       responses:
         '200':
