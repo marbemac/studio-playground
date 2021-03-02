@@ -1,0 +1,13 @@
+{
+  "title": "Pet",
+  "type": "object",
+  "description": "It has 4 legs.",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
